@@ -9,9 +9,9 @@ const mySet = new Set<number>([4,5,6]);
 
 type typeOfTheMySet = typeof mySet; // Set<number>
 
-type GetInnerType<S> = S extends Set<infer T> ? T : never
+type GetInnerTypeOfSet<S> = S extends Set<infer T> ? T : never
 
-type elementsOfMySet = GetInnerType<typeof mySet> // number
+type elementsOfMySet = GetInnerTypeofSet<typeof mySet> // number
 
 function myFunction(int: elementsOfMySet) {
   ...
