@@ -19,3 +19,8 @@ function myFunction(int: elementsOfMySet) {
 
 myFunction(3); // Right
 myFunction("a"); // Wrong
+
+## Typing redux actions
+
+* [How to type Redux actions and Redux reducers in TypeScript?](https://stackoverflow.com/questions/35482241/how-to-type-redux-actions-and-redux-reducers-in-typescript#40758619)
+* [A New Redux Action Pattern for TypeScript 2.4+](https://spin.atomicobject.com/2017/07/24/redux-action-pattern-typescript/)
