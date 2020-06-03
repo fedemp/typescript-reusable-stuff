@@ -19,6 +19,7 @@ function myFunction(int: elementsOfMySet) {
 
 myFunction(3); // Right
 myFunction("a"); // Wrong
+```
 
 ## Typing redux actions
 
